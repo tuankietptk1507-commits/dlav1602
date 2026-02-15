@@ -62,7 +62,10 @@ body {
 .container .con-but .con-btn-except:hover {
     background-color: rgba(246, 36, 36, 0.951);
 }
-
+.container .con-but .con-btn-except:active {
+    background-color: rgba(246, 36, 36, 0.688);
+    transform: scale(0.99);
+}
 .container .con-but .con-btn-plus {
     background-color: rgba(4, 213, 53, 0.633);
 }
@@ -70,7 +73,10 @@ body {
 .container .con-but .con-btn-plus:hover {
     background-color: rgba(4, 213, 53, 0.849);
 }
-
+.container .con-but .con-btn-plus:active {
+    background-color: rgba(4, 213, 53, 0.618);
+    transform: scale(0.99);
+}
 .container .con-reset {
     width: 100%;
     padding: 40px 20px;
@@ -85,8 +91,11 @@ body {
 
 .container .con-reset:hover {
     background-color: #b7b7b798;
+    transform: scale(0.99);
 }
-
+.container .con-reset:active {
+    background-color: #b7b7b758;
+}
 @media screen and (max-width:550px) {
     .container .con-but .con-btn {
         padding: 15px 20px;
