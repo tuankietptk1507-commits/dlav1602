@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(221, 221, 221, 0.552);
+    padding-top: 40px;
+}
+
+.container {
+    padding: 60px 50px;
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+
+}
+
+.container h2 {
+    font-weight: 800;
+    font-size: 40px;
+    color: #8b8b8b;
+    font-family: 'inter';
+}
+
+.container .con-number {
+    font-size: 100px;
+    font-weight: 800;
+    font-family: 'inter';
+}
+.container .con-but{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 100%;
+}
+.container .con-but .con-btn{
+    padding: 35px 120px;
+    border-radius: 20px;
+    border: none;
+    font-size: 40px;
+    color: #ffffff;
+    font-family: 'inter';
+}
+.container .con-but .con-btn-except{
+    background-color: rgba(252, 60, 60, 0.922);
+}
+.container .con-but .con-btn-except:hover{
+    background-color: rgba(246, 36, 36, 0.951);
+}
+.container .con-but .con-btn-plus{
+    background-color: rgba(4, 213, 53, 0.633);
+}
+.container .con-but .con-btn-plus:hover{
+    background-color: rgba(4, 213, 53, 0.849);
+}
+.container .con-reset{
+    width: 100%;
+   padding: 40px 120px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    font-weight: 600;
+    color: #00000098;
+    background-color: #d7d7d798;
+    font-family: 'inter';
+}
+.container .con-reset:hover{
+    background-color: #b7b7b798;
+}
